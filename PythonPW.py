@@ -1,11 +1,9 @@
 import warnings
-warnings.simplefilter(action='ignore', category=FutureWarning) # warning about future 'sum'; how to fix?
 
 import os
 import glob
 from datetime import datetime
 
-import numpy as np
 import pandas as pd
 pd.options.mode.chained_assignment = None  # default='warn'
 
